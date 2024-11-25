@@ -1,7 +1,7 @@
 package peertracker
 
 import (
-	"github.com/coreos/etcd/client"
+	client "go.etcd.io/etcd/client/v2"
 	"golang.org/x/net/context"
 	"log"
 	"os"
